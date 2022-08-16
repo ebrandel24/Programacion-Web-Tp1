@@ -1,0 +1,56 @@
+
+/* *{
+    background-color: rgb(237, 133, 235); /* es para ponerle color a la pagina */ */
+
+body{
+    margin: 0px;
+}
+
+/*div{
+    padding: 20px; /* separa un elemento de otro adentro de la misma caja, segun los div} */
+
+#main{
+    background-color: bisque;
+}
+
+nav{
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+}
+
+nav ul{ /* adentro del nav todas las listas desordenadas se muestren como flex */
+    display: flex;
+}
+
+nav li{
+    margin-left: 20px;
+    list-style: none; /* para sacarle los puntos que por default pone li */
+}
+
+nav a{
+    text-decoration: none; /* sacamos el subrayado de los hipervinculos */
+    color: rgb(0, 0, 0); /* le cambia el color a los botones */
+}
+
+nav a:hover{ /* para cuando te paras arriba y cambia de color */
+    color: coral 
+}
+
+nav img{
+    display: flex;
+        max-height: 50px;
+        width: auto ;
+}
+
+.menuButton{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center; /* no te lo pone ni arriba ni abajo, en el medio */
+    justify-content: flex-end; /* manda todos los botones al final de la caja */
+    width: 100%;
+    padding: 20px;
+}
+
+/* flex: transofrmo listas en botoneras, acomode los hipervinculos que estaban abajo, a la derecha */
